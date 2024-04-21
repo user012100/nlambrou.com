@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel='icon' href="https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-blank-512.png" type='image/x-icon'/>
+        <link rel="stylesheet" href="https://use.typekit.net/gos3pfu.css">
+        <title>Nick Lambrou</title>
+    </head>
+    <body class="font">
+        <header>
+        <div class="header-font">
+            <h1>Nick Lambrou</h1>
+        </div>
+        </header>
+        <nav>
+        <div class="nav">
+            <div class="dropdown"><div class="dropbtn">Photography<div class="dash">—</div></div><div class="dropdown-content">
+            <a class="dropdown-link" href="./digital">Digital</a>
+            <a class="dropdown-link" href="./film">Film</a>
+            </div></div>
+            <div class="navlink"><a href="./motion">Motion</a><div class="dash">—</div></div>
+            <div class="navlink"><a href="#" style="color:#d9be84">Home</a><div class="dash">—</div></div>
+            <div class="navlink"><a href="./about">About</a><div class="dash">—</div></div>
+            <div class="navlink"><a href="./contact">Contact</a><div class="dash">—</div></div>
+        </div>
+        </nav>
+        <div class="column-index">
+            <a href="./posts/the-milds"><div class="img-hover-zoom"><img src="./images/the-milds/d.jpg" alt="The Milds"></div></a>
+        </div>
+        <div class="column-index">
+            <a href="./posts/lowkey"><div class="img-hover-zoom"><img src="./images/lowkey/i.jpg" alt="Lowkey"></div></a>
+        </div>
+        <footer>
+        </footer>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyDNPUwY0_1lYDFFKl_GY3S9EOO96IdZ6po",
+              authDomain: "nick-lambrou.firebaseapp.com",
+              projectId: "nick-lambrou",
+              storageBucket: "nick-lambrou.appspot.com",
+              messagingSenderId: "497046443209",
+              appId: "1:497046443209:web:ef5da86e985cd1ac26e918",
+              measurementId: "G-F5R20Z2G6P"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+    </body>
+</html>
