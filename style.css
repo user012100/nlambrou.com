@@ -188,6 +188,13 @@ nav.sticky + .navbar-placeholder {
   .media-grid-photo video {
     width: 100%;
   }
+  .last-photo-mobile {
+    margin-bottom: 40px;
+}
+}
+
+.last-photo {
+    margin-bottom: 40px;
 }
 
 .vimeo {
@@ -277,10 +284,6 @@ p {
   text-decoration: none;
   font-size: 32px;
   line-height: 1.25;
-}
-
-.last-photo {
-  margin-bottom: 40px;
 }
 
 .footer {
