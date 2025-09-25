@@ -193,8 +193,10 @@ nav.sticky + .navbar-placeholder {
 }
 }
 
-.last-photo {
-    margin-bottom: 40px;
+@media (min-width: 769px) {
+  .last-photo {
+      margin-bottom: 40px;
+  }
 }
 
 .vimeo {
